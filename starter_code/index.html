@@ -17,11 +17,10 @@
 </head>
 
 <body>
-  <nav>
-    <div>
-      <img src="./images/slack-logo.png" alt="Slack logo" />
-
-      <ul>
+  <nav id="navcontainer">
+    <div class="navleftcontainer">
+      <img id="slacklogo" src="./images/slack-logo.png" alt="Slack logo" />
+      <ul class="leftcontainer">
         <li>
           <a href="#">Product</a>
         </li>
@@ -57,18 +56,19 @@
     </div>
   </nav>
 
-  <header>
+  <header id="btnheader" class="headerButtonContainer">
     <div>
-      <h1>Great teamwork starts with a digital HQ</h1>
+      <h1 class="text-centre">Great teamwork starts with a digital HQ</h1>
 
-      <p>Slack is free to try for as long as you'd like.</p>
+      <p class="text-centre">Slack is free to try for as long as you'd like.</p>
 
-      <div>
-        <button>Sign up with email</button>
+      <div id="headerButtonContainer">
+        <button id="signUpWithEmail">Sign up with email</button>
 
-        <button>
-          <img src="./images/logo-google.png" alt="Google logo" />
-          <span>Sign up with Google</span>
+        <button class="signUpWithGoogleButton">
+          <img id="googleSymbol" src="./images/logo-google.png" alt="Google logo" />
+          <span style="color: orange">Slack is free to try </span> for as long
+          as you'd like
         </button>
       </div>
 
